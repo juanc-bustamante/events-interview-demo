@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import EventCard from '../components/EventCard/EventCard';
 import EventFilter from '../components/EventFilter/EventFilter';
 import EventSearch from '../components/EventSearch/EventSearch';
 import { FilterOptions } from '../types';
-import { useRouter } from 'next/router';
 import useFetchEvents from '../hooks/useFetchEvents';
-import { Container, EventsList } from '../components/Home/Home.styled';
+import { Container, Banner, BannerTitle, FiltersContainer, EventFilterContainer, EventSearchContainer, EventsList } from '../components/Home/Home.styled';
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
@@ -51,16 +51,24 @@ const Home = () => {
   };
 
   return (
-    <Container>
-      <h1>Upcoming City Events</h1>
-      <EventSearch searchTerm={searchTerm} onSearch={handleSearchChange} />
-      <EventFilter onFilterChange={handleFilterChange} categories={categories} locations={locations} filters={filters}/>
-      <EventsList>
-        {events?.map(event => (
-          <EventCard key={event.id} {...event} onClick={() => onEventClick(event.id)} />
-        ))}
-      </EventsList>
-    </Container>
+      <Container>
+        <Banner>
+          <BannerTitle>Upcoming City Events</BannerTitle>
+        </Banner>
+        <FiltersContainer>
+          <EventSearchContainer>
+            <EventSearch searchTerm={searchTerm} onSearch={handleSearchChange} />
+          </EventSearchContainer>
+          <EventFilterContainer>
+            <EventFilter onFilterChange={handleFilterChange} categories={categories} locations={locations} filters={filters} />
+          </EventFilterContainer>
+        </FiltersContainer>
+        <EventsList>
+          {events?.map(event => (
+            <EventCard key={event.id} {...event} onClick={() => onEventClick(event.id)} />
+          ))}
+        </EventsList>
+      </Container>
   );
 };
 

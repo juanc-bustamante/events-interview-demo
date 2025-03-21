@@ -1,42 +1,40 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const SearchContainer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
+  width: 100%;
 `;
 
 export const SearchInput = styled.input`
-  width: 100%;
-  max-width: 400px;
-  padding: 0.5rem 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  flex: 1;
+  padding: ${({ theme }) => theme.spacing.small} ${({ theme }) => theme.spacing.medium};
+  border: 1px solid ${({ theme }) => theme.colors.lightGray};
+  border-radius: ${({ theme }) => theme.borderRadius};
   font-size: 1rem;
-  color: #333;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: ${({ theme }) => theme.colors.darkGray};
+  box-shadow: ${({ theme }) => theme.boxShadow};
   transition: border-color 0.3s;
 
   &:focus {
-    border-color: #0070f3;
+    border-color: ${({ theme }) => theme.colors.primary};
     outline: none;
   }
 `;
 
 export const SearchButton = styled.button`
-  padding: 0.5rem 1rem;
-  margin-left: 0.5rem;
+  padding: ${({ theme }) => theme.spacing.small} ${({ theme }) => theme.spacing.medium};
+  margin-left: ${({ theme }) => theme.spacing.small};
   border: none;
-  border-radius: 4px;
-  background-color: #0070f3;
-  color: #fff;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  background-color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.white};
   font-size: 1rem;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: ${({ theme }) => theme.boxShadow};
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: #005bb5;
+    background-color: ${({ theme }) => theme.colors.secondary};
   }
 `;

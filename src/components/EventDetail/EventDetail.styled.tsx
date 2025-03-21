@@ -1,67 +1,67 @@
 import styled from 'styled-components';
 
 export const EventContainer = styled.div`
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 2rem 0;
+  background: ${({ theme }) => theme.colors.white};
+  border-radius: ${({ theme }) => theme.borderRadius};
+  box-shadow: ${({ theme }) => theme.boxShadow};
+  padding: ${({ theme }) => theme.spacing.large};
+  margin: ${({ theme }) => theme.spacing.large} 0;
 `;
 
 export const EventTitle = styled.h1`
   font-size: 2.5rem;
-  color: #333;
-  margin-bottom: 1rem;
+  color: ${({ theme }) => theme.colors.darkGray};
+  margin-bottom: ${({ theme }) => theme.spacing.medium};
 `;
 
 export const EventInfo = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: ${({ theme }) => theme.spacing.medium};
 `;
 
 export const EventLabel = styled.span`
   font-weight: bold;
-  color: #555;
-  margin-right: 0.5rem;
+  color: ${({ theme }) => theme.colors.gray};
+  margin-right: ${({ theme }) => theme.spacing.small};
 `;
 
 export const EventDate = styled.p`
   font-size: 1rem;
-  color: #666;
+  color: ${({ theme }) => theme.colors.gray};
   margin: 0;
 `;
 
 export const EventCategory = styled.p`
   font-size: 1rem;
-  color: #666;
+  color: ${({ theme }) => theme.colors.gray};
   margin: 0;
 `;
 
 export const EventLocation = styled.p`
   font-size: 1rem;
-  color: #666;
+  color: ${({ theme }) => theme.colors.gray};
   margin: 0;
 `;
 
 export const EventDescription = styled.p`
   font-size: 1.2rem;
-  color: #333;
-  margin-bottom: 1rem;
+  color: ${({ theme }) => theme.colors.darkGray};
+  margin-bottom: ${({ theme }) => theme.spacing.medium};
   line-height: 1.5;
 `;
 
 export const EventImages = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: ${({ theme }) => theme.spacing.medium};
+  margin-top: ${({ theme }) => theme.spacing.medium};
 `;
 
 export const EventImage = styled.div`
   width: 100%;
   max-width: 300px;
-  border-radius: 8px;
+  border-radius: ${({ theme }) => theme.borderRadius};
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: ${({ theme }) => theme.boxShadow};
 `;
