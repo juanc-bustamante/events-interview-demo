@@ -11,6 +11,15 @@ export const events = [
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
     {
+        id: '39',
+        title: 'Classic Car Show',
+        date: '2025-06-20',
+        location: 'Convention Center',
+        category: 'Other',
+        description: 'A show featuring classic and vintage cars.',
+        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+    },
+    {
         id: '2',
         title: 'Art in the Park',
         date: '2025-03-22',
@@ -107,6 +116,15 @@ export const events = [
         location: 'The Grand Theatre',
         category: 'Entertainment',
         description: 'A live performance of a popular theater play.',
+        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+    },
+    {
+        id: '38',
+        title: 'Pet Adoption Day',
+        date: '2025-06-18',
+        location: 'Central Park',
+        category: 'Other',
+        description: 'A day dedicated to finding homes for shelter animals.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
     {
@@ -332,24 +350,6 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Other',
         description: 'An event for people to practice and exchange languages.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
-    },
-    {
-        id: '38',
-        title: 'Pet Adoption Day',
-        date: '2025-06-18',
-        location: 'Central Park',
-        category: 'Other',
-        description: 'A day dedicated to finding homes for shelter animals.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
-    },
-    {
-        id: '39',
-        title: 'Classic Car Show',
-        date: '2025-06-20',
-        location: 'Convention Center',
-        category: 'Other',
-        description: 'A show featuring classic and vintage cars.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
     {

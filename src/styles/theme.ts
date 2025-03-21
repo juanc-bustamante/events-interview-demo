@@ -4,7 +4,7 @@ const theme: DefaultTheme = {
   colors: {
     primary: '#0070f3',
     secondary: '#1c1c1e',
-    background: '#f0f0f0',
+    background: '#B59E7D',
     white: '#ffffff',
     gray: '#666666',
     lightGray: '#e0e0e0',
@@ -12,7 +12,7 @@ const theme: DefaultTheme = {
   },
   fonts: {
     main: 'Arial, sans-serif',
-    heading: 'Georgia, serif',
+    heading: 'Arial, serif',
   },
   spacing: {
     small: '8px',

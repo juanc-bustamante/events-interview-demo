@@ -4,13 +4,28 @@ export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: ${({ theme }) => theme.spacing.large};
-  background-color: ${({ theme }) => theme.colors.white};
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: ${({ theme }) => theme.borderRadius};
   box-shadow: ${({ theme }) => theme.boxShadow};
 `;
 
+export const Header = styled.header`
+  background-image: url('/header-background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: ${({ theme }) => theme.spacing.large};
+  border-radius: ${({ theme }) => theme.borderRadius};
+  margin-bottom: ${({ theme }) => theme.spacing.large};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
 export const Banner = styled.div`
-  background-color: ${({ theme }) => theme.colors.primary};
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
   color: ${({ theme }) => theme.colors.white};
   padding: ${({ theme }) => theme.spacing.large};
   border-radius: ${({ theme }) => theme.borderRadius};

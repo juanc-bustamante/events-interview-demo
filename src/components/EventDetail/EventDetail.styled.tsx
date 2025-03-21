@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 export const EventContainer = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: ${({ theme }) => theme.spacing.large};
   background: ${({ theme }) => theme.colors.white};
   border-radius: ${({ theme }) => theme.borderRadius};
   box-shadow: ${({ theme }) => theme.boxShadow};
   padding: ${({ theme }) => theme.spacing.large};
-  margin: ${({ theme }) => theme.spacing.large} 0;
 `;
 
 export const EventTitle = styled.h1`

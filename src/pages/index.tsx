@@ -5,7 +5,7 @@ import EventFilter from '../components/EventFilter/EventFilter';
 import EventSearch from '../components/EventSearch/EventSearch';
 import { FilterOptions } from '../types';
 import useFetchEvents from '../hooks/useFetchEvents';
-import { Container, Banner, BannerTitle, FiltersContainer, EventFilterContainer, EventSearchContainer, EventsList } from '../components/Home/Home.styled';
+import { Container, Banner, BannerTitle, FiltersContainer, EventFilterContainer, EventSearchContainer, EventsList, Header } from '../components/Home/Home.styled';
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
@@ -52,8 +52,9 @@ const Home = () => {
 
   return (
       <Container>
+        <Header>
         <Banner>
-          <BannerTitle>Upcoming City Events</BannerTitle>
+          <BannerTitle>City Events</BannerTitle>
         </Banner>
         <FiltersContainer>
           <EventSearchContainer>
@@ -63,6 +64,7 @@ const Home = () => {
             <EventFilter onFilterChange={handleFilterChange} categories={categories} locations={locations} filters={filters} />
           </EventFilterContainer>
         </FiltersContainer>
+        </Header>
         <EventsList>
           {events?.map(event => (
             <EventCard key={event.id} {...event} onClick={() => onEventClick(event.id)} />

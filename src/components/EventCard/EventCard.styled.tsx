@@ -4,20 +4,22 @@ interface EventCardContainerProps {
   category: string;
 }
 
-const categoryColors: { [key: string]: string } = {
-  Art: "#ffcccb",
-  Social: "#add8e6",
-  Tech: "#d3ffce",
-  Sports: "#f0e68c",
-  Entertainment: "#f0f8ff",
-  Other: "#f0f8ff",
+const categoryBackgroundColors: { [key: string]: string } = {
+  Art: "#750000",
+  Social: "#CE5C23",
+  Tech: "#244E2E",
+  Sports: "#BE8127",
+  Entertainment: "#284D55",
+  Other: "#872C6B",
+  default: "#BE8127"
 };
 
 export const EventCardContainer = styled.div<EventCardContainerProps>`
   flex: 0 0 auto;
-  width: 200px;
+  width: 211px;
   height: 300px;
-  background-color: ${({ category }) => categoryColors[category] || categoryColors.default};
+  color: ${({ theme }) => theme.colors.lightGray};
+  background-color: ${({ category }) => categoryBackgroundColors[category] || categoryBackgroundColors.default};
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -25,4 +27,5 @@ export const EventCardContainer = styled.div<EventCardContainerProps>`
   align-items: center;
   justify-content: center;
   padding: 10px;
+  text-align: center;
 `;
