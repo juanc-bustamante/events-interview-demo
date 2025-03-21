@@ -25,8 +25,8 @@ export const Header = styled.header`
 export const Banner = styled.div`
   width: 100%;
   max-width: 500px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: ${({ theme }) => theme.colors.white};
+  background-color:rgba(181, 158, 125, 0.85);
+  color: ${({ theme }) => theme.colors.darkGray};
   padding: ${({ theme }) => theme.spacing.large};
   border-radius: ${({ theme }) => theme.borderRadius};
   text-align: center;

@@ -54,7 +54,7 @@ const Home = () => {
       <Container>
         <Header>
         <Banner>
-          <BannerTitle>City Events</BannerTitle>
+          <BannerTitle>CITY EVENTS</BannerTitle>
         </Banner>
         <FiltersContainer>
           <EventSearchContainer>

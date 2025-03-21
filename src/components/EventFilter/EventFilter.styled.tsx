@@ -5,17 +5,17 @@ export const FilterContainer = styled.div`
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  background-color:rgba(181, 158, 125, 0.85);
 `;
 
 export const FilterTitle = styled.h2`
   width: 100%;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
+  margin-bottom: 0;
   color: #333;
+  font-size: 1rem;
 `;
 
 export const FilterLabel = styled.label`
@@ -24,7 +24,6 @@ export const FilterLabel = styled.label`
   flex: 1;
   min-width: 150px;
   font-size: 1rem;
-  color: #555;
 `;
 
 export const FilterSelect = styled.select`

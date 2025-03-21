@@ -7,7 +7,7 @@ interface EventCardContainerProps {
 const categoryBackgroundColors: { [key: string]: string } = {
   Art: "#750000",
   Social: "#CE5C23",
-  Tech: "#244E2E",
+  STEM: "#244E2E",
   Sports: "#BE8127",
   Entertainment: "#284D55",
   Other: "#872C6B",

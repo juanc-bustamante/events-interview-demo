@@ -15,7 +15,7 @@ export const events = [
         title: 'Classic Car Show',
         date: '2025-06-20',
         location: 'Convention Center',
-        category: 'Other',
+        category: 'Social',
         description: 'A show featuring classic and vintage cars.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -39,11 +39,11 @@ export const events = [
     },
     {
         id: '4',
-        title: 'Tech Conference 2023',
+        title: 'STEM Conference 2023',
         date: '2025-03-12',
         location: 'Convention Center',
-        category: 'Tech',
-        description: 'A conference featuring the latest in technology and innovation.',
+        category: 'STEM',
+        description: 'A conference featuring the latest in STEMnology and innovation.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
     {
@@ -60,7 +60,7 @@ export const events = [
         title: 'Book Fair',
         date: '2025-03-20',
         location: 'House of Wisdom',
-        category: 'Art',
+        category: 'Social',
         description: 'A fair featuring book signings, author talks, and a wide selection of books for sale.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -96,7 +96,7 @@ export const events = [
         title: 'Science Expo',
         date: '2025-04-02',
         location: 'Convention Center',
-        category: 'Tech',
+        category: 'STEM',
         description: 'An expo featuring interactive science exhibits and demonstrations.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -150,7 +150,7 @@ export const events = [
         title: 'Robotics Workshop',
         date: '2025-04-15',
         location: 'Convention Center',
-        category: 'Tech',
+        category: 'STEM',
         description: 'A hands-on workshop on building and programming robots.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -177,7 +177,7 @@ export const events = [
         title: 'History Lecture',
         date: '2025-04-22',
         location: 'House of Wisdom',
-        category: 'Tech',
+        category: 'STEM',
         description: 'A lecture on a significant historical event or figure.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -186,7 +186,7 @@ export const events = [
         title: 'Yoga Retreat',
         date: '2025-04-25',
         location: 'Founder Plaza',
-        category: 'Social',
+        category: 'Sports',
         description: 'A weekend retreat focused on yoga and wellness.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -205,7 +205,7 @@ export const events = [
         date: '2025-05-02',
         location: 'House of Wisdom',
         category: 'Other',
-        description: 'A workshop on gardening techniques and tips.',
+        description: 'A workshop on gardening STEMniques and tips.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
     {
@@ -222,7 +222,7 @@ export const events = [
         title: 'Startup Pitch',
         date: '2025-05-08',
         location: 'Convention Center',
-        category: 'Tech',
+        category: 'STEM',
         description: 'An event where startups pitch their ideas to potential investors.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -232,7 +232,7 @@ export const events = [
         date: '2025-05-10',
         location: 'House of Wisdom',
         category: 'Art',
-        description: 'A class teaching participants how to paint with different techniques.',
+        description: 'A class teaching participants how to paint with different STEMniques.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
     {
@@ -258,7 +258,7 @@ export const events = [
         title: 'Coding Bootcamp',
         date: '2025-05-18',
         location: 'House of Wisdom',
-        category: 'Tech',
+        category: 'STEM',
         description: 'An intensive coding bootcamp for aspiring software developers.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -267,7 +267,7 @@ export const events = [
         title: 'Meditation Session',
         date: '2025-05-20',
         location: 'Central Park',
-        category: 'Other',
+        category: 'Social',
         description: 'A guided meditation session for relaxation and mindfulness.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -321,7 +321,7 @@ export const events = [
         title: 'Astronomy Night',
         date: '2025-06-08',
         location: 'House of Wisdom',
-        category: 'Tech',
+        category: 'STEM',
         description: 'A night of stargazing and learning about astronomy.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -330,7 +330,7 @@ export const events = [
         title: 'Ballet Performance',
         date: '2025-06-10',
         location: 'The Grand Theatre',
-        category: 'Art',
+        category: 'Entertainment',
         description: 'A ballet performance by a renowned ballet company.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -339,7 +339,7 @@ export const events = [
         title: 'Craft Fair',
         date: '2025-06-12',
         location: 'Founder Plaza',
-        category: 'Art',
+        category: 'Social',
         description: 'A fair featuring handmade crafts and goods from local artisans.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -357,7 +357,7 @@ export const events = [
         title: 'Bird Watching',
         date: '2025-06-22',
         location: 'Central Park',
-        category: 'Other',
+        category: 'Sports',
         description: 'A guided bird watching tour in a nature reserve.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -429,7 +429,7 @@ export const events = [
         title: 'Board Game Night',
         date: '2025-07-15',
         location: 'The Late Bar',
-        category: 'Entertainment',
+        category: 'Social',
         description: 'A night of board games and fun at a local cafe.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     },
@@ -447,7 +447,7 @@ export const events = [
         title: 'Summer Camp',
         date: '2025-07-20',
         location: 'Central Park',
-        category: 'Other',
+        category: 'Social',
         description: 'A summer camp with various outdoor activities for kids.',
         images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
     }
