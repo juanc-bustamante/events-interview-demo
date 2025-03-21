@@ -20,14 +20,31 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Project Architecture
+This project is structured as follows:
 
-To learn more about Next.js, take a look at the following resources:
+* **pages/:** Contains the Next.js pages. Each file in this directory corresponds to a route in the application.
+- **index.tsx:** The main page of the application, which displays a list of events and includes search and filter functionality.
+- **event/[id].tsx:** A dynamic route that displays the details of an individual event based on its ID.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **components/:** Contains the React components used throughout the application.
+- **EventCard.tsx:** A component that displays the details of a single event in a card format.
+- **EventFilter.tsx:** A component that provides filtering options for the events.
+- **EventSearch.tsx:** A component that provides a search input for filtering events by title.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **hooks/:** Contains custom React hooks used in the application.
+- **useFetchEvents.ts:** A custom hook that fetches a list of events based on the current search term and filters, with caching to avoid redundant API calls.
+- **useFetchEvent.ts:** A custom hook that fetches the details of an individual event based on its ID.
+
+* **reducers/:** Contains the Redux-like reducers used to manage the application state.
+- **eventReducer.ts:** A reducer that manages the state of events, including fetching a list of events and fetching an individual event.
+
+* **styles/:** Contains global styles and theme definitions.
+- **GlobalStyles.ts:** Defines the global styles for the application.
+- **theme.ts:** Defines the theme for the application, including colors, fonts, and spacing.
+
+* **types/:** Contains TypeScript type definitions used throughout the application.
+- **index.ts:** Defines the types for events and filter options.
 
 ## Deploy on Vercel
 
