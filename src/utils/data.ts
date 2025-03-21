@@ -8,7 +8,7 @@ export const events = [
         location: 'Central Park',
         category: 'Entertainment',
         description: 'A day-long festival featuring various music bands and artists from around the city.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/1537637/pexels-photo-1537637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '39',
@@ -17,7 +17,7 @@ export const events = [
         location: 'Convention Center',
         category: 'Social',
         description: 'A show featuring classic and vintage cars.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/1280560/pexels-photo-1280560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '2',
@@ -26,7 +26,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Art',
         description: 'An outdoor art exhibition showcasing local artists and their work.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/31252156/pexels-photo-31252156/free-photo-of-vibrant-outdoor-festival-with-decorative-ceiling.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '3',
@@ -35,16 +35,16 @@ export const events = [
         location: 'Founder Plaza',
         category: 'Social',
         description: 'A gathering of the best food trucks in the city offering a variety of cuisines.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/221357/pexels-photo-221357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '4',
-        title: 'STEM Conference 2023',
+        title: 'Technology Conference 2023',
         date: '2025-03-12',
         location: 'Convention Center',
         category: 'STEM',
-        description: 'A conference featuring the latest in STEMnology and innovation.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        description: 'A conference featuring the latest in Technology and innovation.',
+        images: ['https://images.pexels.com/photos/8355222/pexels-photo-8355222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '5',
@@ -53,7 +53,7 @@ export const events = [
         location: 'The Grand Theatre',
         category: 'Art',
         description: 'A showcase of the latest spring fashion trends by top designers.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/10548132/pexels-photo-10548132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '6',
@@ -62,7 +62,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Social',
         description: 'A fair featuring book signings, author talks, and a wide selection of books for sale.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/375892/pexels-photo-375892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '7',
@@ -71,7 +71,7 @@ export const events = [
         location: 'Central Park',
         category: 'Sports',
         description: 'A city-wide marathon open to runners of all levels.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/2654902/pexels-photo-2654902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '8',
@@ -80,7 +80,7 @@ export const events = [
         location: 'The Grand Theatre',
         category: 'Art',
         description: 'A festival showcasing independent films from around the world.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/3644048/pexels-photo-3644048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '9',
@@ -89,7 +89,7 @@ export const events = [
         location: 'The Late Bar',
         category: 'Entertainment',
         description: 'An evening of live jazz music featuring local and visiting artists.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/9009602/pexels-photo-9009602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '10',
@@ -98,7 +98,7 @@ export const events = [
         location: 'Convention Center',
         category: 'STEM',
         description: 'An expo featuring interactive science exhibits and demonstrations.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '11',
@@ -107,7 +107,7 @@ export const events = [
         location: 'The Late Bar',
         category: 'Social',
         description: 'A wine tasting event featuring a selection of local wines.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/3540/restaurant-alcohol-bar-drinks.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '12',
@@ -116,7 +116,7 @@ export const events = [
         location: 'The Grand Theatre',
         category: 'Entertainment',
         description: 'A live performance of a popular theater play.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/5801307/pexels-photo-5801307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '38',
@@ -125,7 +125,7 @@ export const events = [
         location: 'Central Park',
         category: 'Other',
         description: 'A day dedicated to finding homes for shelter animals.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/28860760/pexels-photo-28860760/free-photo-of-man-interacting-with-bernese-mountain-dog-indoors.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '13',
@@ -134,7 +134,7 @@ export const events = [
         location: 'Central Park',
         category: 'Sports',
         description: 'A charity run to raise funds for a local cause.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/2002174/pexels-photo-2002174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '14',
@@ -143,7 +143,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Art',
         description: 'An exhibition showcasing the work of local photographers.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/808506/pexels-photo-808506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '15',
@@ -152,7 +152,7 @@ export const events = [
         location: 'Convention Center',
         category: 'STEM',
         description: 'A hands-on workshop on building and programming robots.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/7868892/pexels-photo-7868892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '16',
@@ -161,7 +161,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Social',
         description: 'A cooking class teaching participants how to prepare gourmet meals.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/6019589/pexels-photo-6019589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '17',
@@ -170,7 +170,7 @@ export const events = [
         location: 'The Grand Theatre',
         category: 'Entertainment',
         description: 'A competition featuring dance performances by local dance groups.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/30061417/pexels-photo-30061417/free-photo-of-dance-competition-celebration-with-happy-participants.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '18',
@@ -179,7 +179,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'STEM',
         description: 'A lecture on a significant historical event or figure.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/18299325/pexels-photo-18299325/free-photo-of-a-man-speaking-in-front-of-people-in-a-castle.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '19',
@@ -188,7 +188,7 @@ export const events = [
         location: 'Founder Plaza',
         category: 'Sports',
         description: 'A weekend retreat focused on yoga and wellness.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/31216264/pexels-photo-31216264/free-photo-of-outdoor-yoga-session-by-istanbul-waterfront.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '20',
@@ -197,7 +197,7 @@ export const events = [
         location: 'The Late Bar',
         category: 'Entertainment',
         description: 'A night of stand-up comedy featuring local comedians.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/10538542/pexels-photo-10538542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '21',
@@ -206,7 +206,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Other',
         description: 'A workshop on gardening STEMniques and tips.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/4503261/pexels-photo-4503261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '22',
@@ -215,7 +215,7 @@ export const events = [
         location: 'New Colloseum',
         category: 'Entertainment',
         description: 'A rock concert featuring popular rock bands.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/2091374/pexels-photo-2091374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '23',
@@ -224,7 +224,7 @@ export const events = [
         location: 'Convention Center',
         category: 'STEM',
         description: 'An event where startups pitch their ideas to potential investors.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/7413909/pexels-photo-7413909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '24',
@@ -232,8 +232,8 @@ export const events = [
         date: '2025-05-10',
         location: 'House of Wisdom',
         category: 'Art',
-        description: 'A class teaching participants how to paint with different STEMniques.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        description: 'A class teaching participants how to paint with different techniques.',
+        images: ['https://images.pexels.com/photos/11000907/pexels-photo-11000907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '25',
@@ -242,7 +242,7 @@ export const events = [
         location: 'Central Park',
         category: 'Sports',
         description: 'A guided cycling tour through the city.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/5807631/pexels-photo-5807631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '26',
@@ -251,7 +251,7 @@ export const events = [
         location: 'The Grand Theatre',
         category: 'Entertainment',
         description: 'A night of opera performances by renowned opera singers.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['hhttps://images.pexels.com/photos/7567417/pexels-photo-7567417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '27',
@@ -260,7 +260,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'STEM',
         description: 'An intensive coding bootcamp for aspiring software developers.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/6804071/pexels-photo-6804071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '28',
@@ -269,7 +269,7 @@ export const events = [
         location: 'Central Park',
         category: 'Social',
         description: 'A guided meditation session for relaxation and mindfulness.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/25358279/pexels-photo-25358279/free-photo-of-people-in-a-forest.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '29',
@@ -278,7 +278,7 @@ export const events = [
         location: 'The Late Bar',
         category: 'Entertainment',
         description: 'A fun night of karaoke singing at a local bar.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/6173860/pexels-photo-6173860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '30',
@@ -287,7 +287,7 @@ export const events = [
         location: 'Convention Center',
         category: 'Sports',
         description: 'A chess tournament open to players of all skill levels.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/8465448/pexels-photo-8465448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '31',
@@ -296,7 +296,7 @@ export const events = [
         location: 'Central Park',
         category: 'Other',
         description: 'A community event to clean up the city beach.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/9034659/pexels-photo-9034659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '32',
@@ -305,7 +305,7 @@ export const events = [
         location: 'The Grand Theatre',
         category: 'Entertainment',
         description: 'A magic show featuring amazing tricks and illusions.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/17092084/pexels-photo-17092084/free-photo-of-man-holding-a-rabbit.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '33',
@@ -314,7 +314,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Art',
         description: 'A poetry reading event featuring local poets.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/9572699/pexels-photo-9572699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '34',
@@ -323,7 +323,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'STEM',
         description: 'A night of stargazing and learning about astronomy.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/11392957/pexels-photo-11392957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '35',
@@ -332,7 +332,7 @@ export const events = [
         location: 'The Grand Theatre',
         category: 'Entertainment',
         description: 'A ballet performance by a renowned ballet company.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/358010/pexels-photo-358010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '36',
@@ -341,7 +341,7 @@ export const events = [
         location: 'Founder Plaza',
         category: 'Social',
         description: 'A fair featuring handmade crafts and goods from local artisans.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/3617724/pexels-photo-3617724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '37',
@@ -350,7 +350,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Other',
         description: 'An event for people to practice and exchange languages.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/3201718/pexels-photo-3201718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '40',
@@ -359,7 +359,7 @@ export const events = [
         location: 'Central Park',
         category: 'Sports',
         description: 'A guided bird watching tour in a nature reserve.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/31254206/pexels-photo-31254206/free-photo-of-group-with-parrots-on-hill-in-muscat-oman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '41',
@@ -368,7 +368,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Art',
         description: 'A workshop on creating sculptures with different materials.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/6713854/pexels-photo-6713854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '42',
@@ -377,7 +377,7 @@ export const events = [
         location: 'Central Park',
         category: 'Sports',
         description: 'A fishing competition at the city lake.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/12511420/pexels-photo-12511420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '43',
@@ -386,7 +386,7 @@ export const events = [
         location: 'New Colloseum',
         category: 'Entertainment',
         description: 'A guided tour of a haunted house with spooky stories.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/14157529/pexels-photo-14157529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '44',
@@ -395,7 +395,7 @@ export const events = [
         location: 'The Grand Theatre',
         category: 'Entertainment',
         description: 'A piano recital featuring classical and contemporary pieces.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/5070054/pexels-photo-5070054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '45',
@@ -404,7 +404,7 @@ export const events = [
         location: 'Convention Center',
         category: 'Other',
         description: 'A meetup for volunteers to discuss and plan community projects.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/6591147/pexels-photo-6591147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '46',
@@ -413,7 +413,7 @@ export const events = [
         location: 'The Late Bar',
         category: 'Entertainment',
         description: 'A night of salsa dancing with live music.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/19187134/pexels-photo-19187134/free-photo-of-young-couple-in-sensual-tango-ballroom-dance.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '47',
@@ -422,7 +422,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Other',
         description: 'A workshop on eco-friendly practices and sustainability.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/4752022/pexels-photo-4752022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '48',
@@ -431,7 +431,7 @@ export const events = [
         location: 'The Late Bar',
         category: 'Social',
         description: 'A night of board games and fun at a local cafe.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/4009760/pexels-photo-4009760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '49',
@@ -440,7 +440,7 @@ export const events = [
         location: 'House of Wisdom',
         category: 'Art',
         description: 'An event where participants can enjoy wine while painting.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/20173396/pexels-photo-20173396/free-photo-of-people-taking-a-selfie-during-a-painting-class.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     },
     {
         id: '50',
@@ -449,6 +449,6 @@ export const events = [
         location: 'Central Park',
         category: 'Social',
         description: 'A summer camp with various outdoor activities for kids.',
-        images: ['https://fakeimg.pl/600x400?text=Image+1', 'https://fakeimg.pl/600x400?text=Image+2']
+        images: ['https://images.pexels.com/photos/8033865/pexels-photo-8033865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
     }
 ] as Event[];

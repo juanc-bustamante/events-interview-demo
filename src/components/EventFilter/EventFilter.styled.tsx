@@ -16,6 +16,7 @@ export const FilterTitle = styled.h2`
   margin-bottom: 0;
   color: #333;
   font-size: 1rem;
+  color: ${({ theme }) => theme.colors.white};
 `;
 
 export const FilterLabel = styled.label`

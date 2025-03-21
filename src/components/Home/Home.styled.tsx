@@ -16,6 +16,7 @@ export const Header = styled.header`
   padding: ${({ theme }) => theme.spacing.large};
   border-radius: ${({ theme }) => theme.borderRadius};
   margin-bottom: ${({ theme }) => theme.spacing.large};
+  color: ${({ theme }) => theme.colors.white};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +27,7 @@ export const Banner = styled.div`
   width: 100%;
   max-width: 500px;
   background-color:rgba(181, 158, 125, 0.85);
-  color: ${({ theme }) => theme.colors.darkGray};
+  color: ${({ theme }) => theme.colors.white};
   padding: ${({ theme }) => theme.spacing.large};
   border-radius: ${({ theme }) => theme.borderRadius};
   text-align: center;
