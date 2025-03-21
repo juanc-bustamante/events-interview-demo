@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.header`
-  background-image: url('/header-background.jpg');
+  background-image: url('https://images.pexels.com/photos/27402867/pexels-photo-27402867/free-photo-of-a-river-with-parked-cars-and-trees-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-size: cover;
   background-position: center;
   padding: ${({ theme }) => theme.spacing.large};
